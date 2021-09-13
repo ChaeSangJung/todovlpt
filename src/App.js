@@ -5,6 +5,7 @@ import TodoHead from './components/TodoHead';
 import TodoList from './components/TodoList';
 import Counter from "./components/Counter";
 import CountUser from "./components/CountUser";
+import ContextAPISample from "./components/ContextAPISample";
 
 const GlobalStyle = createGlobalStyle`
   body {
@@ -24,6 +25,7 @@ function App() {
       </div>
       <Counter />
       <CountUser />
+      <ContextAPISample />
     </>
   );
 }
